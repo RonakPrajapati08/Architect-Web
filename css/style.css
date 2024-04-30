@@ -1,0 +1,129 @@
+@font-face {
+    font-family: colfax;
+    src: url("../font/Colfax-Regular.otf");
+}
+
+/* 
+.container {
+    border: 2px solid
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: colfax;
+}
+
+.text-red {
+    color: #B52C30;
+}
+
+.bg-red {
+    background-color: #B52C30;
+}
+
+/* .our-vision {
+    padding: 11rem 0 !important;
+} */
+
+.dot {
+    position: relative;
+}
+
+/* .dot:before {
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 30%;
+bottom: -50%;
+left: 0;
+
+
+}
+
+*/
+.hero {
+    background-image: url(../img/About\ us\ bg-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem 0;
+    /* filter: brightness(.4); */
+    background-color: rgba(0, 0, 0, 0.425);
+    background-blend-mode: multiply;
+
+}
+
+.hero-bg {
+    font-size: 5rem !important;
+    font-weight: bold;
+    /* z-index: ; */
+}
+
+/* .three h2 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+} */
+
+.four {
+    margin-top: 5rem !important;
+}
+
+@keyframes slideIn {
+    from {
+        /* background-color: rgb(18, 18, 18); */
+        background-color: rgba(181, 44, 48, 1) !important;
+    }
+
+    to {
+        height: 5px;
+        width: 100%;
+        background-color: rgba(181, 44, 48, 1) !important;
+    }
+
+}
+
+
+.animated-hr {
+    border: none;
+    height: 2px;
+    /* Height of the horizontal rule */
+    background-color: rgba(181, 44, 48, 1) !important;
+    /* background-color: rgb(58, 58, 58); */
+    /* Color of the horizontal rule */
+    /* position: relative; */
+    animation: slideIn 10s ease-in-out infinite alternate;
+    /* Adjust animation duration and timing function as needed */
+}
+
+
+
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .our-vision {
+        padding: 11rem 0 !important;
+    }
+
+    .three h2 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
